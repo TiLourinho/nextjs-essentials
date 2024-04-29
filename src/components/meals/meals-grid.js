@@ -4,11 +4,11 @@ import styles from "./meals.module.css";
 export default function MealsGrid({ meals }) {
   return (
     <ul className={styles.meals}>
-      {meals.map((meal) => {
+      {meals.map((meal) => (
         <li key={meal.id}>
           <MealItem {...meal} />
-        </li>;
-      })}
+        </li>
+      ))}
     </ul>
   );
 }
