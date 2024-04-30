@@ -13,12 +13,6 @@ body {
   background: radial-gradient(#282c34, #282c34);
 }
 
-main,
-a {
-  text-align: center;
-  text-decoration: none;
-}
-
 .not-found,
 .error {
   margin-top: 5rem;
